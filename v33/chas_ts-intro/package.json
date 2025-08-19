@@ -1,0 +1,26 @@
+{
+  "name": "chas_ts-intro",
+  "version": "1.0.0",
+  "description": "TypeScript är JavaScript med typer. Typer är vilken **typ** av värde en variabel får innehålla. Typer kan vara **strängar**, **tal**, **booleaner**, **arrayer**, **objekt**, **funktioner** osv. Om du skriver kod som gör att en variabel får ett värde som inte passar dess typ, så kommer TypeScript att rapportera ett fel. Detta gör att TypeScript kan hitta buggar i koden.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsc -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidshore/chas_ts-intro.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davidshore/chas_ts-intro/issues"
+  },
+  "homepage": "https://github.com/davidshore/chas_ts-intro#readme",
+  "devDependencies": {
+    "typescript": "^5.9.2"
+  }
+}
